@@ -1,9 +1,8 @@
 import {createStore} from 'vuex'
+import state from './state'
 
 export default createStore({
-    state:{
-        list:['A','B','C']
-    }
+    state
 })
 
 
